@@ -1,5 +1,7 @@
   # ASP.NET
 
+  rewrite  ^/autodiscover                                       $redirect_ssl_host_url/ permanent;
+
   rewrite  ^/manager                                            $redirect_ssl_host_url/ permanent;
   rewrite  ^/msd                                                $redirect_ssl_host_url/ permanent;
 
