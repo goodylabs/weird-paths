@@ -7,9 +7,9 @@ This set of weird paths grouped by technology that can be handled by front web s
 
 ### nginx rewrite rules
 
-You need to provide $redirect_ssl_host_url variable in your configuration to make these rewrites work.
+You need to provide `$redirect_ssl_host_url` variable in your configuration to make these rewrites work.
 
-Example of using weird-paths in your nginx config like in `/etc/nginx/sites-enables/my-site` file:
+Example of using weird-paths in your nginx config like in `/etc/nginx/sites-enabled/my-site` file:
 
 ```
 set $redirect_ssl_host_url "https://www.google.com";
