@@ -13,20 +13,26 @@ Example of using weird-paths in your nginx config like in `/etc/nginx/sites-enab
 
 ```
 set $redirect_ssl_host_url "https://www.google.com";
-include conf.d/_weird_paths_asp.inc;
-include conf.d/_weird_paths_exploits.inc;
-include conf.d/_weird_paths_html.inc;
-include conf.d/_weird_paths_java.inc;
-include conf.d/_weird_paths_joomla.inc;
-include conf.d/_weird_paths_lua.inc;
-include conf.d/_weird_paths_mysqladmin.inc;
-include conf.d/_weird_paths_php.inc;
-include conf.d/_weird_paths_sap.inc;
-include conf.d/_weird_paths_sqlite.inc;
-include conf.d/_weird_paths_status.inc;
-include conf.d/_weird_paths_struts.inc;
-include conf.d/_weird_paths_txt.inc;
-include conf.d/_weird_paths_xml.inc;
+include conf.d/_weird_paths_apache_portal.inc
+include conf.d/_weird_paths_asp.inc
+include conf.d/_weird_paths_bitcoin.inc
+include conf.d/_weird_paths_exploits.inc
+include conf.d/_weird_paths_favicon.inc
+include conf.d/_weird_paths_html.inc
+include conf.d/_weird_paths_iis.inc
+include conf.d/_weird_paths_java.inc
+include conf.d/_weird_paths_joomla.inc
+include conf.d/_weird_paths_lua.inc
+include conf.d/_weird_paths_ms_exchange.inc
+include conf.d/_weird_paths_mysqladmin.inc
+include conf.d/_weird_paths_panasonic_cameras.inc
+include conf.d/_weird_paths_php.inc
+include conf.d/_weird_paths_sap.inc
+include conf.d/_weird_paths_sqlite.inc
+include conf.d/_weird_paths_status.inc
+include conf.d/_weird_paths_struts.inc
+include conf.d/_weird_paths_txt.inc
+include conf.d/_weird_paths_xml.inc
 ```
 
 
