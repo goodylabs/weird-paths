@@ -35,4 +35,5 @@ include conf.d/_weird_paths_txt.inc
 include conf.d/_weird_paths_xml.inc
 ```
 
+Ready to use examples are in `examples` directory.
 
