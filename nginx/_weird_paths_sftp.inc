@@ -7,7 +7,5 @@
 
   # based on https://www.acunetix.com/vulnerabilities/web/sftp-ftp-credentials-exposure
 
-  rewrite  ^/recentservers\.xml              $redirect_ssl_host_url/ permanent;
-  rewrite  ^/sftp-config\.json               $redirect_ssl_host_url/ permanent;
-
-
+  rewrite  ^/recentservers\.xml                                 $redirect_ssl_host_url/ permanent;
+  rewrite  ^/sftp-config\.json                                  $redirect_ssl_host_url/ permanent;
