@@ -19,6 +19,9 @@
   rewrite  ^/psp                                                $redirect_ssl_host_url/ permanent;
   rewrite  ^/PSBlock                                            $redirect_ssl_host_url/ permanent;
 
+  # View ASP.NET Trace Information with the Trace Viewer
+  rewrite  ^/trace\.axd                                         $redirect_ssl_host_url/ permanent; # https://msdn.microsoft.com/en-us/library/wwh16c6c.aspx
+
   rewrite  ^/webdav                                             $redirect_ssl_host_url/ permanent;
   rewrite  ^/webindex                                           $redirect_ssl_host_url/ permanent;
   rewrite  ^/webmail                                            $redirect_ssl_host_url/ permanent;
@@ -26,4 +29,5 @@
   rewrite  ^/(.*)\.action$                                      $redirect_ssl_host_url/ permanent;
   rewrite  ^/(.*)\.asp$                                         $redirect_ssl_host_url/ permanent;
   rewrite  ^/(.*)\.aspx$                                        $redirect_ssl_host_url/ permanent;
+  rewrite  ^/(.*)/global\.asa$                                  $redirect_ssl_host_url/ permanent;
 
