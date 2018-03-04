@@ -39,6 +39,7 @@ include conf.d/_weird_paths_ms_exchange.inc
 include conf.d/_weird_paths_ms_word.inc
 include conf.d/_weird_paths_mysqladmin.inc
 include conf.d/_weird_paths_novell.inc
+include conf.d/_weird_paths_ogate.inc
 include conf.d/_weird_paths_oracle.inc
 include conf.d/_weird_paths_panasonic_cameras.inc
 include conf.d/_weird_paths_passwd.inc

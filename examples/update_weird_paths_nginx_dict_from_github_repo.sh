@@ -12,10 +12,22 @@ SOURCE_WEIRD_PATHS_FILE="_weird_paths_custom.inc"
 WEIRD_PATHS_URL="https://raw.githubusercontent.com/goodylabs/weird-paths/master/nginx/"
 
 WEIRD_PATHS_MODULES=( \
+  "adobe" \
   "apache_portal" \
   "asp" \
+  "bash" \
   "bitcoin" \
+  "cfg" \
+  "cgi" \
+  "cisco" \
+  "db4web" \
+  "dbm" \
+  "domain_analyzer" \
+  "exe" \
   "exploits" \
+  "favicon" \
+  "fts" \
+  "hp" \
   "html" \
   "iis" \
   "ip_cameras" \
@@ -25,15 +37,24 @@ WEIRD_PATHS_MODULES=( \
   "ms_exchange" \
   "ms_word" \
   "mysqladmin" \
+  "novell" \
+  "ogate" \
+  "oracle" \
   "panasonic_cameras" \
+  "passwd" \
+  "perl" \
   "php" \
   "sap" \
   "sftp" \
+  "simatic_s7" \
   "sqlite" \
   "status" \
   "struts" \
   "txt" \
+  "weblogic" \
+  "win_ini" \
   "xml" \
+  "xsql" \
 )
 
 ## DO NOT EDIT BELOW THIS LINE ###
@@ -67,5 +88,5 @@ done
 # 2. Append with custom rewrite rules
 ${CAT} ${SOURCE_WEIRD_PATHS_FILE} >> ${WEIRD_PATHS_FILE}
 
-# 3. Cleanup 
+# 3. Cleanup
 ${RM} -f ${NEXT_PART_FILE}
