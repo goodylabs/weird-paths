@@ -52,6 +52,7 @@ WEIRD_PATHS_MODULES=( \
   "struts" \
   "txt" \
   "weblogic" \
+  "wordpress" \
   "win_ini" \
   "xml" \
   "xsql" \
