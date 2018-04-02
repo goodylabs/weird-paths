@@ -48,6 +48,7 @@ WEIRD_PATHS_MODULES=( \
   "sftp" \
   "simatic_s7" \
   "sqlite" \
+  "subversion" \
   "status" \
   "struts" \
   "txt" \
