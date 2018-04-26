@@ -33,6 +33,7 @@ include conf.d/_weird_paths_html.inc
 include conf.d/_weird_paths_iis.inc
 include conf.d/_weird_paths_ip_cameras.inc
 include conf.d/_weird_paths_java.inc
+include conf.d/_weird_paths_jboss.inc
 include conf.d/_weird_paths_joomla.inc
 include conf.d/_weird_paths_lua.inc
 include conf.d/_weird_paths_ms_exchange.inc
