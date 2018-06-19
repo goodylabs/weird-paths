@@ -13,6 +13,9 @@ Example of using weird-paths in your nginx config like in `/etc/nginx/sites-enab
 
 ```
 set $redirect_ssl_host_url "https://www.google.com";
+
+# list of includes
+
 include conf.d/_weird_paths_adobe.inc
 include conf.d/_weird_paths_apache_portal.inc
 include conf.d/_weird_paths_asp.inc
@@ -59,7 +62,8 @@ include conf.d/_weird_paths_win_ini.inc
 include conf.d/_weird_paths_wordpress.inc
 include conf.d/_weird_paths_xml.inc
 include conf.d/_weird_paths_xsql.inc
+
+# end of include list
 ```
 
 Ready to use examples are in `examples` directory.
-
