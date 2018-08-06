@@ -40,6 +40,7 @@ include conf.d/_weird_paths_ip_phones.inc
 include conf.d/_weird_paths_java.inc
 include conf.d/_weird_paths_jboss.inc
 include conf.d/_weird_paths_joomla.inc
+include conf.d/_weird_paths_lighttpd.inc
 include conf.d/_weird_paths_lua.inc
 include conf.d/_weird_paths_ms_exchange.inc
 include conf.d/_weird_paths_ms_word.inc
