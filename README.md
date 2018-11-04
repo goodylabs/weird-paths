@@ -17,6 +17,7 @@ set $redirect_ssl_host_url "https://www.google.com";
 # list of includes
 
 include conf.d/_weird_paths_adobe.inc
+include conf.d/_weird_paths_alexa.inc
 include conf.d/_weird_paths_apache_portal.inc
 include conf.d/_weird_paths_asp.inc
 include conf.d/_weird_paths_assets_without_extensions.inc
