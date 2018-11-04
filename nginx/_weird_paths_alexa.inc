@@ -1,0 +1,3 @@
+  # Alexa
+
+  rewrite  ^/alexa                                              $redirect_ssl_host_url/ permanent;
