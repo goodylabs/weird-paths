@@ -44,6 +44,7 @@ include conf.d/_weird_paths_joomla.inc
 include conf.d/_weird_paths_lighttpd.inc
 include conf.d/_weird_paths_lua.inc
 include conf.d/_weird_paths_ms_exchange.inc
+include conf.d/_weird_paths_ms_sharepoint.inc
 include conf.d/_weird_paths_ms_word.inc
 include conf.d/_weird_paths_mysqladmin.inc
 include conf.d/_weird_paths_novell.inc
