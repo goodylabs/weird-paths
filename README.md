@@ -53,6 +53,7 @@ include conf.d/_weird_paths_panasonic_cameras.inc
 include conf.d/_weird_paths_passwd.inc
 include conf.d/_weird_paths_perl.inc
 include conf.d/_weird_paths_php.inc
+include conf.d/_weird_paths_polycom.inc
 include conf.d/_weird_paths_sap.inc
 include conf.d/_weird_paths_sftp.inc
 include conf.d/_weird_paths_simatic_s7.inc
