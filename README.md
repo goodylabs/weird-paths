@@ -26,6 +26,7 @@ include conf.d/_weird_paths_bitcoin.inc
 include conf.d/_weird_paths_cfg.inc
 include conf.d/_weird_paths_cgi.inc
 include conf.d/_weird_paths_cisco.inc
+include conf.d/_weird_paths_coldfusion.inc
 include conf.d/_weird_paths_db4web.inc
 include conf.d/_weird_paths_dbm.inc
 include conf.d/_weird_paths_domain_analyzer.inc
@@ -48,6 +49,7 @@ include conf.d/_weird_paths_ms_exchange.inc
 include conf.d/_weird_paths_ms_sharepoint.inc
 include conf.d/_weird_paths_ms_word.inc
 include conf.d/_weird_paths_mysqladmin.inc
+include conf.d/_weird_paths_nonweb_images.inc
 include conf.d/_weird_paths_novell.inc
 include conf.d/_weird_paths_ogate.inc
 include conf.d/_weird_paths_oracle.inc
