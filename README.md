@@ -35,6 +35,7 @@ include conf.d/_weird_paths_exploits.inc
 include conf.d/_weird_paths_favicon.inc
 include conf.d/_weird_paths_fts.inc
 include conf.d/_weird_paths_git.inc
+include conf.d/_weird_paths_gpon_home_routers.inc
 include conf.d/_weird_paths_hp.inc
 include conf.d/_weird_paths_html.inc
 include conf.d/_weird_paths_iis.inc
