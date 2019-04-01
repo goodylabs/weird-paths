@@ -44,6 +44,7 @@ include conf.d/_weird_paths_ip_phones.inc
 include conf.d/_weird_paths_java.inc
 include conf.d/_weird_paths_jboss.inc
 include conf.d/_weird_paths_joomla.inc
+include conf.d/_weird_paths_kubernetes.inc
 include conf.d/_weird_paths_lighttpd.inc
 include conf.d/_weird_paths_lua.inc
 include conf.d/_weird_paths_ms_exchange.inc
@@ -67,6 +68,7 @@ include conf.d/_weird_paths_status.inc
 include conf.d/_weird_paths_struts.inc
 include conf.d/_weird_paths_subversion.inc
 include conf.d/_weird_paths_txt.inc
+include conf.d/_weird_paths_visual_studio_code.inc
 include conf.d/_weird_paths_weblogic.inc
 include conf.d/_weird_paths_win_ini.inc
 include conf.d/_weird_paths_wordpress.inc
