@@ -63,6 +63,7 @@ include conf.d/_weird_paths_polycom.inc
 include conf.d/_weird_paths_sap.inc
 include conf.d/_weird_paths_sftp.inc
 include conf.d/_weird_paths_simatic_s7.inc
+include conf.d/_weird_paths_sitemap.inc
 include conf.d/_weird_paths_sqlite.inc
 include conf.d/_weird_paths_status.inc
 include conf.d/_weird_paths_struts.inc
