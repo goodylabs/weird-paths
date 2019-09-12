@@ -30,6 +30,7 @@ include conf.d/_weird_paths_coldfusion.inc
 include conf.d/_weird_paths_db4web.inc
 include conf.d/_weird_paths_dbm.inc
 include conf.d/_weird_paths_domain_analyzer.inc
+include conf.d/_weird_paths_embedthis_esp.inc
 include conf.d/_weird_paths_exe.inc
 include conf.d/_weird_paths_exploits.inc
 include conf.d/_weird_paths_favicon.inc
