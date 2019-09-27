@@ -10,3 +10,4 @@
   rewrite  ^/system/console$                                    $redirect_ssl_host_url/ permanent;
   rewrite  ^/(.*)\.jsf$                                         $redirect_ssl_host_url/ permanent;
   rewrite  ^/(.*)\.jsp$                                         $redirect_ssl_host_url/ permanent;
+  rewrite  ^/(.*)\.jspa$                                        $redirect_ssl_host_url/ permanent;
