@@ -1,5 +1,5 @@
   # PHP
-  
+
   rewrite  ^/admin/(.*)\.php$                                   $redirect_ssl_host_url/ permanent;
 
   # supposedly Ukrainian exploit to PHP vulnerabilities or misconfigurations
@@ -16,6 +16,11 @@
   rewrite  ^/roundcube                                          $redirect_ssl_host_url/ permanent;
 
   rewrite  ^/sys-cgi                                            $redirect_ssl_host_url/ permanent;
+
+  # vBulletin - https://www.vbulletin.org/forum/portal.php
+  rewrite  ^/vb5/                                               $redirect_ssl_host_url/ permanent;
+  rewrite  ^/vbulletin/                                         $redirect_ssl_host_url/ permanent;
+  rewrite  ^/vbulletin5/                                        $redirect_ssl_host_url/ permanent;
 
   rewrite  ^/(.*)phpmyadmin(.*)$                                $redirect_ssl_host_url/ permanent;
   rewrite  ^/(.*)\.cgi$                                         $redirect_ssl_host_url/ permanent;
