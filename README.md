@@ -26,6 +26,7 @@ include conf.d/_weird_paths_bitcoin.inc
 include conf.d/_weird_paths_cfg.inc
 include conf.d/_weird_paths_cgi.inc
 include conf.d/_weird_paths_cisco.inc
+include conf.d/_weird_paths_cloudflare.inc
 include conf.d/_weird_paths_coldfusion.inc
 include conf.d/_weird_paths_db4web.inc
 include conf.d/_weird_paths_dbm.inc

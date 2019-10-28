@@ -20,6 +20,7 @@ WEIRD_PATHS_MODULES=( \
   "cfg" \
   "cgi" \
   "cisco" \
+  "cloudflare" \
   "db4web" \
   "dbm" \
   "domain_analyzer" \
