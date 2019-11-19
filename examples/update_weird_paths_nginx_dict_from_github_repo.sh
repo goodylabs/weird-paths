@@ -53,6 +53,7 @@ WEIRD_PATHS_MODULES=( \
   "status" \
   "struts" \
   "txt" \
+  "ubiquity" \
   "weblogic" \
   "wordpress" \
   "win_ini" \
