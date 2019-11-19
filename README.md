@@ -71,7 +71,7 @@ include conf.d/_weird_paths_status.inc
 include conf.d/_weird_paths_struts.inc
 include conf.d/_weird_paths_subversion.inc
 include conf.d/_weird_paths_txt.inc
-include conf.d/_weird_paths_ubiquiti.inc
+include conf.d/_weird_paths_ubiquity.inc
 include conf.d/_weird_paths_visual_studio_code.inc
 include conf.d/_weird_paths_weblogic.inc
 include conf.d/_weird_paths_win_ini.inc
