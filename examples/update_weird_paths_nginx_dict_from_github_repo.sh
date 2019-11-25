@@ -59,6 +59,7 @@ WEIRD_PATHS_MODULES=( \
   "win_ini" \
   "xml" \
   "xsql" \
+  "yealink" \
 )
 
 ## DO NOT EDIT BELOW THIS LINE ###

@@ -78,6 +78,7 @@ include conf.d/_weird_paths_win_ini.inc
 include conf.d/_weird_paths_wordpress.inc
 include conf.d/_weird_paths_xml.inc
 include conf.d/_weird_paths_xsql.inc
+include conf.d/_weird_paths_yealink.inc
 
 # end of include list
 ```
