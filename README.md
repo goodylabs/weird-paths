@@ -53,6 +53,7 @@ include conf.d/_weird_paths_ms_exchange.inc
 include conf.d/_weird_paths_ms_sharepoint.inc
 include conf.d/_weird_paths_ms_word.inc
 include conf.d/_weird_paths_mysqladmin.inc
+include conf.d/_weird_paths_nginx_load_balancer.inc
 include conf.d/_weird_paths_nonweb_images.inc
 include conf.d/_weird_paths_novell.inc
 include conf.d/_weird_paths_ogate.inc

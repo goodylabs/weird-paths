@@ -29,5 +29,6 @@
   rewrite  ^/(.*)\.action$                                      $redirect_ssl_host_url/ permanent;
   rewrite  ^/(.*)\.asp$                                         $redirect_ssl_host_url/ permanent;
   rewrite  ^/(.*)\.aspx$                                        $redirect_ssl_host_url/ permanent;
+  rewrite  ^/(.*)\.axd$                                         $redirect_ssl_host_url/ permanent;
   rewrite  ^/(.*)/global\.asa$                                  $redirect_ssl_host_url/ permanent;
 
