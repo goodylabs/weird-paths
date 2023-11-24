@@ -1,6 +1,7 @@
   # PHP
 
   rewrite  ^/admin/(.*)\.php$                                   $redirect_ssl_host_url/ permanent;
+  rewrite  ^/(.*)phpinfo(.*)$                                   $redirect_ssl_host_url/ permanent;
 
   # supposedly Ukrainian exploit to PHP vulnerabilities or misconfigurations
   rewrite  ^/muieblackcat                                       $redirect_ssl_host_url/ permanent;

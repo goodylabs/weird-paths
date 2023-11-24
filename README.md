@@ -21,6 +21,7 @@ include conf.d/_weird_paths_alexa.inc
 include conf.d/_weird_paths_apache_portal.inc
 include conf.d/_weird_paths_asp.inc
 include conf.d/_weird_paths_assets_without_extensions.inc
+include conf.d/_weird_paths_aws.inc
 include conf.d/_weird_paths_bash.inc
 include conf.d/_weird_paths_bitcoin.inc
 include conf.d/_weird_paths_cfg.inc
@@ -31,7 +32,9 @@ include conf.d/_weird_paths_coldfusion.inc
 include conf.d/_weird_paths_db4web.inc
 include conf.d/_weird_paths_dbm.inc
 include conf.d/_weird_paths_domain_analyzer.inc
+include conf.d/_weird_paths_drupal.inc
 include conf.d/_weird_paths_embedthis_esp.inc
+include conf.d/_weird_paths_env.inc
 include conf.d/_weird_paths_exe.inc
 include conf.d/_weird_paths_exploits.inc
 include conf.d/_weird_paths_favicon.inc
@@ -46,6 +49,7 @@ include conf.d/_weird_paths_ip_phones.inc
 include conf.d/_weird_paths_java.inc
 include conf.d/_weird_paths_jboss.inc
 include conf.d/_weird_paths_joomla.inc
+include conf.d/_weird_paths_jwt.inc
 include conf.d/_weird_paths_kubernetes.inc
 include conf.d/_weird_paths_lighttpd.inc
 include conf.d/_weird_paths_lua.inc
@@ -68,6 +72,8 @@ include conf.d/_weird_paths_sftp.inc
 include conf.d/_weird_paths_simatic_s7.inc
 include conf.d/_weird_paths_sitemap.inc
 include conf.d/_weird_paths_sqlite.inc
+include conf.d/_weird_paths_ssh.inc
+include conf.d/_weird_paths_ssl_certs.inc
 include conf.d/_weird_paths_status.inc
 include conf.d/_weird_paths_struts.inc
 include conf.d/_weird_paths_subversion.inc
