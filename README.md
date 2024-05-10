@@ -53,6 +53,7 @@ include conf.d/_weird_paths_jwt.inc
 include conf.d/_weird_paths_kubernetes.inc
 include conf.d/_weird_paths_lighttpd.inc
 include conf.d/_weird_paths_lua.inc
+include conf.d/_weird_paths_manifest_json.inc
 include conf.d/_weird_paths_ms_exchange.inc
 include conf.d/_weird_paths_ms_sharepoint.inc
 include conf.d/_weird_paths_ms_word.inc
@@ -62,6 +63,7 @@ include conf.d/_weird_paths_nonweb_images.inc
 include conf.d/_weird_paths_novell.inc
 include conf.d/_weird_paths_ogate.inc
 include conf.d/_weird_paths_oracle.inc
+include conf.d/_weird_paths_paloalto_networks.inc
 include conf.d/_weird_paths_panasonic_cameras.inc
 include conf.d/_weird_paths_passwd.inc
 include conf.d/_weird_paths_perl.inc
@@ -81,6 +83,7 @@ include conf.d/_weird_paths_txt.inc
 include conf.d/_weird_paths_ubiquity.inc
 include conf.d/_weird_paths_visual_studio_code.inc
 include conf.d/_weird_paths_weblogic.inc
+include conf.d/_weird_paths_well_known_trust.inc
 include conf.d/_weird_paths_win_ini.inc
 include conf.d/_weird_paths_wordpress.inc
 include conf.d/_weird_paths_xml.inc
