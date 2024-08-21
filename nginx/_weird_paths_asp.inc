@@ -18,6 +18,7 @@
   rewrite  ^/program                                            $redirect_ssl_host_url/ permanent;
   rewrite  ^/psp                                                $redirect_ssl_host_url/ permanent;
   rewrite  ^/PSBlock                                            $redirect_ssl_host_url/ permanent;
+  rewrite  ^/t4$                                                $redirect_ssl_host_url/ permanent; # https://en.wikipedia.org/wiki/Text_Template_Transformation_Toolkit
 
   # View ASP.NET Trace Information with the Trace Viewer
   rewrite  ^/trace\.axd                                         $redirect_ssl_host_url/ permanent; # https://msdn.microsoft.com/en-us/library/wwh16c6c.aspx

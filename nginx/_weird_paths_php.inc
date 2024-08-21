@@ -1,5 +1,8 @@
   # PHP
 
+  rewrite  ^/ab2h                                               $redirect_ssl_host_url/ permanent;
+  rewrite  ^/ab2g                                               $redirect_ssl_host_url/ permanent;
+
   rewrite  ^/admin/(.*)\.php$                                   $redirect_ssl_host_url/ permanent;
   rewrite  ^/(.*)phpinfo(.*)$                                   $redirect_ssl_host_url/ permanent;
 
