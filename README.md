@@ -32,6 +32,7 @@ include conf.d/_weird_paths_coldfusion.inc
 include conf.d/_weird_paths_db4web.inc
 include conf.d/_weird_paths_dbm.inc
 include conf.d/_weird_paths_domain_analyzer.inc
+include conf.d/_weird_paths_dot_env.inc
 include conf.d/_weird_paths_drupal.inc
 include conf.d/_weird_paths_embedthis_esp.inc
 include conf.d/_weird_paths_env.inc
@@ -55,6 +56,7 @@ include conf.d/_weird_paths_lighttpd.inc
 include conf.d/_weird_paths_lua.inc
 include conf.d/_weird_paths_manifest_json.inc
 include conf.d/_weird_paths_ms_exchange.inc
+include conf.d/_weird_paths_ms_outlook.inc
 include conf.d/_weird_paths_ms_sharepoint.inc
 include conf.d/_weird_paths_ms_word.inc
 include conf.d/_weird_paths_mysqladmin.inc
@@ -69,10 +71,12 @@ include conf.d/_weird_paths_passwd.inc
 include conf.d/_weird_paths_perl.inc
 include conf.d/_weird_paths_php.inc
 include conf.d/_weird_paths_polycom.inc
+include conf.d/_weird_paths_qak_bot.inc
 include conf.d/_weird_paths_sap.inc
 include conf.d/_weird_paths_sftp.inc
 include conf.d/_weird_paths_simatic_s7.inc
 include conf.d/_weird_paths_sitemap.inc
+include conf.d/_weird_paths_spring.inc
 include conf.d/_weird_paths_sqlite.inc
 include conf.d/_weird_paths_ssh.inc
 include conf.d/_weird_paths_ssl_certs.inc
@@ -81,6 +85,7 @@ include conf.d/_weird_paths_struts.inc
 include conf.d/_weird_paths_subversion.inc
 include conf.d/_weird_paths_txt.inc
 include conf.d/_weird_paths_ubiquity.inc
+include conf.d/_weird_paths_version.inc
 include conf.d/_weird_paths_visual_studio_code.inc
 include conf.d/_weird_paths_weblogic.inc
 include conf.d/_weird_paths_well_known_trust.inc
