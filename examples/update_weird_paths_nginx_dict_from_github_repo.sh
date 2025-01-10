@@ -9,7 +9,7 @@ SSH=`which ssh`
 WC=`which wc`
 SOURCE_WEIRD_PATHS_FILE="_weird_paths_custom.inc"
 
-WEIRD_PATHS_URL="https://raw.githubusercontent.com/goodylabs/weird-paths/master/nginx/"
+WEIRD_PATHS_URL="https://raw.githubusercontent.com/goodylabs/weird-paths/master/nginx"
 
 WEIRD_PATHS_MODULES=( \
   "adobe" \
@@ -77,7 +77,8 @@ NEXT_PART_FILE=".__next_part_file"
 for module in ${WEIRD_PATHS_MODULES[@]}; do
   echo -n "" > ${NEXT_PART_FILE}
   echo -n "Fetching module ${module}..."
-  ${CURL} -s "${WEIRD_PATHS_URL}/_weird_paths_${module}.inc" >> ${NEXT_PART_FILE}
+  inc_url="${WEIRD_PATHS_URL}/_weird_paths_${module}.inc"
+  ${CURL} -s "${inc_url}" >> ${NEXT_PART_FILE}
   next_part_lines=`${WC} -l ${NEXT_PART_FILE} | ${AWK} '{print $1}'`
   echo -n "(${next_part_lines} lines)..."
   if [ ${next_part_lines} -lt 2 ]; then # if one line, then probably it's not a file content but an error message
