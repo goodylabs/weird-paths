@@ -17,7 +17,9 @@ set $redirect_ssl_host_url "https://www.google.com";
 # list of includes
 
 include conf.d/_weird_paths_adobe.inc
+include conf.d/_weird_paths_aider.inc
 include conf.d/_weird_paths_alexa.inc
+include conf.d/_weird_paths_anthropic.inc
 include conf.d/_weird_paths_apache_portal.inc
 include conf.d/_weird_paths_asp.inc
 include conf.d/_weird_paths_assets_without_extensions.inc
@@ -28,10 +30,15 @@ include conf.d/_weird_paths_cfg.inc
 include conf.d/_weird_paths_cgi.inc
 include conf.d/_weird_paths_check_point.inc
 include conf.d/_weird_paths_cisco.inc
+include conf.d/_weird_paths_claude.inc
 include conf.d/_weird_paths_cloudflare.inc
+include conf.d/_weird_paths_codex.inc
 include conf.d/_weird_paths_coldfusion.inc
+include conf.d/_weird_paths_continue.inc
+include conf.d/_weird_paths_cursor.inc
 include conf.d/_weird_paths_db4web.inc
 include conf.d/_weird_paths_dbm.inc
+include conf.d/_weird_paths_docker.inc
 include conf.d/_weird_paths_domain_analyzer.inc
 include conf.d/_weird_paths_dot_env.inc
 include conf.d/_weird_paths_drupal.inc
@@ -42,7 +49,11 @@ include conf.d/_weird_paths_exploits.inc
 include conf.d/_weird_paths_favicon.inc
 include conf.d/_weird_paths_fts.inc
 include conf.d/_weird_paths_git.inc
+include conf.d/_weird_paths_github.inc
+include conf.d/_weird_paths_gitlab.inc
 include conf.d/_weird_paths_gpon_home_routers.inc
+include conf.d/_weird_paths_graphql.inc
+include conf.d/_weird_paths_hermes.inc
 include conf.d/_weird_paths_hp.inc
 include conf.d/_weird_paths_html.inc
 include conf.d/_weird_paths_iis.inc
@@ -56,15 +67,19 @@ include conf.d/_weird_paths_kubernetes.inc
 include conf.d/_weird_paths_lighttpd.inc
 include conf.d/_weird_paths_lua.inc
 include conf.d/_weird_paths_manifest_json.inc
+include conf.d/_weird_paths_mcp.inc
 include conf.d/_weird_paths_ms_exchange.inc
 include conf.d/_weird_paths_ms_outlook.inc
 include conf.d/_weird_paths_ms_sharepoint.inc
 include conf.d/_weird_paths_ms_word.inc
 include conf.d/_weird_paths_mysqladmin.inc
+include conf.d/_weird_paths_new_relic.inc
 include conf.d/_weird_paths_nginx_load_balancer.inc
 include conf.d/_weird_paths_nonweb_images.inc
 include conf.d/_weird_paths_novell.inc
+include conf.d/_weird_paths_npmrc.inc
 include conf.d/_weird_paths_ogate.inc
+include conf.d/_weird_paths_openclaw.inc
 include conf.d/_weird_paths_oracle.inc
 include conf.d/_weird_paths_paloalto_networks.inc
 include conf.d/_weird_paths_panasonic_cameras.inc
@@ -73,7 +88,10 @@ include conf.d/_weird_paths_perl.inc
 include conf.d/_weird_paths_php.inc
 include conf.d/_weird_paths_polycom.inc
 include conf.d/_weird_paths_qak_bot.inc
+include conf.d/_weird_paths_rclone.inc
+include conf.d/_weird_paths_react.inc
 include conf.d/_weird_paths_sap.inc
+include conf.d/_weird_paths_sendgrid.inc
 include conf.d/_weird_paths_sftp.inc
 include conf.d/_weird_paths_simatic_s7.inc
 include conf.d/_weird_paths_sitemap.inc
@@ -86,6 +104,7 @@ include conf.d/_weird_paths_struts.inc
 include conf.d/_weird_paths_subversion.inc
 include conf.d/_weird_paths_txt.inc
 include conf.d/_weird_paths_ubiquity.inc
+include conf.d/_weird_paths_vercel.inc
 include conf.d/_weird_paths_version.inc
 include conf.d/_weird_paths_visual_studio_code.inc
 include conf.d/_weird_paths_weblogic.inc
