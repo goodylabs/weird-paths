@@ -1,0 +1,4 @@
+~^/\.aws/config$ 1;
+~^/\.aws/credentials$ 1;
+~^/\.boto$ 1;
+~^/\.s3cfg$ 1;

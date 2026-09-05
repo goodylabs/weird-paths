@@ -1,0 +1,9 @@
+~^/%2eenv%2eold$ 1;
+~^/\.env/ 1;
+~^/\.env\.backup$ 1;
+~^/\.env\.bak$ 1;
+~^/\.env\.example$ 1;
+~^/\.env\.local$ 1;
+~^/\.env\.old$ 1;
+~^/\.env\.production$ 1;
+~^/admin/\.env$ 1;

@@ -1,0 +1,11 @@
+~^/(.*)\.jsf$ 1;
+~^/(.*)\.jsp$ 1;
+~^/(.*)\.jspa$ 1;
+~^/axis2/$ 1;
+~^/axis2/services 1;
+~^/hudson 1;
+~^/jenkins 1;
+~^/jmx-console 1;
+~^/sdk$ 1;
+~^/servlet 1;
+~^/system/console$ 1;
