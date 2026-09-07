@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-SED=`which sed`
+SED=`which gsed`
 
 set -euo pipefail
 
@@ -26,27 +26,33 @@ for file in "$TARGET_DIR"/*; do
     filename=$(basename "$file")
     abs_path=$(realpath "$file")
     
+    echo "  ${filename} ..."
+
     syntax_errors=()
 
     # 1. Statyczna weryfikacja linii (brak średnika na końcu dyrektywy)
-    line_num=0
-    while IFS= read -r line || [ -n "$line" ]; do
-        ((line_num++))
+    #line_num=0
+    #while IFS= read -r line || [ -n "$line" ]; do
+    #    ((line_num++))
         
         # Usunięcie komentarzy i skrajnych białych znaków
-        trimmed=$(echo "$line" | ${SED} -e 's/#.*//' -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
+    #    trimmed=$(echo "$line" | ${SED} -e 's/#.*//' -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
         
-        #if [[ -n "$trimmed" && ! "$trimmed" =~ \{[[:space:]]*$ && ! "$trimmed" =~ \}[[:space:]]*$ && ! "$trimmed" =~ ;[[:space:]]*$ ]]; then
+        #if [[ -n "$trimmed" && ! "$trimmed" =~ \{[[:space:]]*$ && ! "$trimmed" =~ \}[[:space:]]*$ && ! "$trimmed" =~ \;[[:space:]]*$ ]]; then
         #    syntax_errors+=("Linia $line_num: Brak średnika na końcu -> '$trimmed'")
         #fi
-    done < "$abs_path"
+    #done < "$abs_path"
 
     # 2. Weryfikacja przez `nginx -t` (jeśli nginx jest zainstalowany)
     nginx_valid=true
     nginx_output=""
 
+    echo "nginx..."
+
     if command -v nginx &> /dev/null; then
         wrapper_file="$TEMP_DIR/test_nginx.conf"
+
+        echo "  Wrapper file: ${wrapper_file} ..."
 
         # Test A: Kontekst 'server' (dla plików z dyrektywami typu 'location', 'rewrite', 'return')
         cat <<EOF > "$wrapper_file"
@@ -71,19 +77,23 @@ EOF
         fi
     fi
 
+    echo "Summary: '${nginx_valid}'"
+
+    cat ${wrapper_file}
+
     # 3. Podsumowanie wyników dla pliku
-    if [ ${#syntax_errors[@]} -gt 0 ] || [ "$nginx_valid" = false ]; then
+    if  [[ "x${nginx_valid}" == "xfalse" ]]; then
         ((ERRORS_FOUND++))
-        echo "❌ [BŁĄD] $filename"
-        
-        for err in "${syntax_errors[@]}"; do
-            echo "   ⚠️  $err"
-        done
-        
-        if [ "$nginx_valid" = false ]; then
+        echo "❌ [BLAD] $filename"
+       
+        if [[ "x$nginx_valid" == "xfalse" ]]; then
             echo "   ⛔ Nginx parser error:"
             echo "$nginx_output" | grep -v "syntax is ok" | ${SED} 's/^/      /'
         fi
+
+        echo "nginx_output: ${nginx_output}"
+
+
         echo ""
     else
         echo "✅ [OK]   $filename"

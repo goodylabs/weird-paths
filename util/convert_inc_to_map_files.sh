@@ -4,13 +4,13 @@ set -euo pipefail
 CONF_DIR="../nginx"
 MAP_DIR="${CONF_DIR}/map"
 
-# Utworzenie katalogu docelowego, jeśli nie istnieje
+# Ensure target dir exists
 mkdir -p "${MAP_DIR}"
 
 SED=`which sed`
 SORT=`which sort`
 
-# Bezpieczniejsza weryfikacja systemu przy set -e
+# macOS setup
 if [[ "$(uname -s)" == "Darwin" ]]; then
   echo "Behaving in a macOS-like OS..."
   SED=`which gsed`
@@ -22,7 +22,6 @@ fi
 for inc_file in "${CONF_DIR}"/*.inc; do
     [ -e "$inc_file" ] || continue
 
-    # Wyciągnięcie nazwy pliku bez ścieżki i rozszerzenia
     filename=$(basename "$inc_file" .inc)
     map_file="${MAP_DIR}/${filename}.map"
 
