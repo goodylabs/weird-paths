@@ -1,2 +1,3 @@
+~^/(.*).sqlite$ 1;
 ~^/SQLite 1;
 ~^/SQlite 1;
