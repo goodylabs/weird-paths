@@ -1,2 +1,5 @@
+~^/asset-manifest.json 1;
+~^/assets/manifest.json 1;
+~^/dist/manifest.json 1;
 ~^/manifest.json 1;
 ~^/static/manifest.json 1;

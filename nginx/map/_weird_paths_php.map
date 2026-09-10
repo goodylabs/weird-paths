@@ -5,6 +5,7 @@
 ~^/ab2g 1;
 ~^/ab2h 1;
 ~^/admin/(.*)\.php$ 1;
+~^/index\.php/ 1;
 ~^/muieblackcat 1;
 ~^/php 1;
 ~^/phpMyAdmi 1;

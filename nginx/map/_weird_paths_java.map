@@ -1,6 +1,7 @@
 ~^/(.*)\.jsf$ 1;
 ~^/(.*)\.jsp$ 1;
 ~^/(.*)\.jspa$ 1;
+~^/WEB-INF/web.xml$ 1;
 ~^/axis2/$ 1;
 ~^/axis2/services 1;
 ~^/hudson 1;
