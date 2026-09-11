@@ -1,0 +1,4 @@
+~^/(.*)/messagebroker 1;
+~^/altercast 1;
+~^/cf_scripts/ 1;
+~^/flex2gateway 1;

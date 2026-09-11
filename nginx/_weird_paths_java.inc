@@ -1,5 +1,6 @@
   # JAVA
 
+  rewrite  ^/WEB-INF/web.xml$                                   $redirect_ssl_host_url/ permanent;
   rewrite  ^/axis2/$                                            $redirect_ssl_host_url/ permanent;
   rewrite  ^/axis2/services                                     $redirect_ssl_host_url/ permanent;
   rewrite  ^/hudson                                             $redirect_ssl_host_url/ permanent;

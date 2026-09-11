@@ -1,0 +1,14 @@
+~^/%2eenv%2eold$ 1;
+~^/\.env/ 1;
+~^/\.env\.(.*)\.local$ 1;
+~^/\.env\.backup$ 1;
+~^/\.env\.bak$ 1;
+~^/\.env\.example$ 1;
+~^/\.env\.live$ 1;
+~^/\.env\.local$ 1;
+~^/\.env\.old$ 1;
+~^/\.env\.production$ 1;
+~^/\.env\.stage$ 1;
+~^/\.env_1$ 1;
+~^/\.env_sample$ 1;
+~^/admin/\.env$ 1;

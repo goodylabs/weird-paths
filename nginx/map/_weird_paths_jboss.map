@@ -1,0 +1,3 @@
+~^/debug.seam 1;
+~^/jbossmq-httpil/HTTPServerILServlet 1;
+~^/securityRealm/user/admin/descriptorByName 1;

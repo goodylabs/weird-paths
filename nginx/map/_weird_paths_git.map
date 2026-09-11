@@ -1,0 +1,5 @@
+~^/\.git-credentials$ 1;
+~^/\.git/ 1;
+~^/\.gitconfig$ 1;
+~^/\.github/\.env$ 1;
+~^/gitweb 1;

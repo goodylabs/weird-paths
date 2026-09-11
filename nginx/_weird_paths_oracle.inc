@@ -1,6 +1,7 @@
   # Oracle
 
   rewrite  ^/apex/                                              $redirect_ssl_host_url/ permanent; # Oracle Apex Listener
+  rewrite  ^/em/console/ias/oc4j/                               $redirect_ssl_host_url/ permanent; # Oracle Application Server Control
   rewrite  ^/ords/                                              $redirect_ssl_host_url/ permanent; # Oracle REST Data Services
   rewrite  ^/otn/                                               $redirect_ssl_host_url/ permanent; # Oracle Technology Network
   rewrite  ^/wls-wsat/CoordinatorPortType                       $redirect_ssl_host_url/ permanent; # Weblogic wls-wsat Component Deserialization Vulnerability (CVE-2017-10271) Detection and Exploitation Script
