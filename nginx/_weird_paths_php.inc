@@ -29,4 +29,4 @@
   rewrite  ^/(.*)phpmyadmin(.*)$                                $redirect_ssl_host_url/ permanent;
   rewrite  ^/(.*)\.cgi$                                         $redirect_ssl_host_url/ permanent;
   rewrite  ^/(.*)\.php$                                         $redirect_ssl_host_url/ permanent;
-
+  rewrite  ^/index\.php/                                        $redirect_ssl_host_url/ permanent;

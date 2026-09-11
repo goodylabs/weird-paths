@@ -1,0 +1,7 @@
+
+# Adobe
+
+/altercast                                    			/ # Adobe Alter Cast - serwer for maintaining graphics
+/cf_scripts/                          		                / # Adobe ColdFusion
+/flex2gateway                 		                        / # Adobe Alter Cast - serwer for maintaining graphics
+/(.*)/messagebroker   		                                / # https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/scanner/http/adobe_xml_inject.rb

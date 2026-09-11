@@ -1,0 +1,2 @@
+~^/(%2e%2e%5c)+.*etc/passwd 1;
+~^/(%2e)+.*etc/passwd 1;

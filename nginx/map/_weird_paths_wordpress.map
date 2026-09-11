@@ -1,0 +1,6 @@
+~^/wp-admin/ 1;
+~^/wp-content/ 1;
+~^/wp-includes/ 1;
+~^/wp-json/ 1;
+~^/wp-p\.php$ 1;
+~^/wp-p\.php7$ 1;

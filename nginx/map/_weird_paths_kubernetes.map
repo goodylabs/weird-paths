@@ -1,0 +1,5 @@
+~^/api/v1/pod$ 1;
+~^/api/v1/pods 1;
+~^/deployment-config\.json 1;
+~^/secrets\.json$ 1;
+~^/secrets\.yml$ 1;

@@ -1,0 +1,3 @@
+~^/\.hermes/\.env$ 1;
+~^/\.hermes/auth\.json$ 1;
+~^/\.hermes/config\.yaml$ 1;

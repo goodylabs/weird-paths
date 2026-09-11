@@ -1,0 +1,3 @@
+  # Laravel
+
+  rewrite ^/_ignition/logs                                      $redirect_ssl_host_url/ permanent;
